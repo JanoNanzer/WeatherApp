@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "AlleynW01-Regular";
+  src: url("https://db.onlinewebfonts.com/t/faa9c8362473bf8b1d2886cfb5962735.eot");
+  src: url("https://db.onlinewebfonts.com/t/faa9c8362473bf8b1d2886cfb5962735.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/faa9c8362473bf8b1d2886cfb5962735.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/faa9c8362473bf8b1d2886cfb5962735.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/faa9c8362473bf8b1d2886cfb5962735.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/faa9c8362473bf8b1d2886cfb5962735.svg#AlleynW01-Regular")
+      format("svg");
+}
+
+body {
+  background-image: url("../../Assets/6.jpg");
+  /* background-image: url("../../Assets/5.jpg"); */
+  /* background-image: url("../../Assets/6.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  height: 100vh;
+  /* user-select: none; */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.noCity {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+  font-family: AlleynW01-Regular;
+  /* transition: 0.3s; */
+  animation: fadeIn 1s;
+}
+
+.outerNoCity {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  align-items: center;
+}
+
+.homeCity {
+  display: flex;
+  width: 100%;
+  height: 85vh;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
